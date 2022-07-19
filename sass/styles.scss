@@ -1,0 +1,12 @@
+// load includes
+@import "includes/reset";
+@import "includes/fonts";
+@import "includes/variables";
+@import "includes/mixins";
+@import "lib/slick";
+@import "lib/slick-theme";
+@import "includes/typography";
+@import "includes/forms";
+@import "includes/general";
+// load partials
+@import "partials/*";

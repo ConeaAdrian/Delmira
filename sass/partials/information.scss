@@ -1,0 +1,251 @@
+
+
+.information {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+
+  .pink-block {
+    background-color: $background;
+    position: absolute;
+    width: 1734px;
+    height: 418px;
+
+    @media screen and (max-width: 360px){
+      display: none;
+      }
+  }
+  .delmira {
+    // background-color: $background;
+    // width: 1934px;
+    // height: 418px;
+    position: relative;
+    margin-top: 102px;
+    position: relative;
+
+    .container {
+      position: relative;
+    }
+
+    .img-delmira {
+      justify-content: center;
+      margin-left: 192px;
+      margin-top: 41px;
+
+      @media screen and (max-width: 360px){
+        display: none;
+        }
+    }
+
+    .delmira-section {
+      position: absolute;
+      top: 120px;
+      right: 20px;
+
+      .footer-photo {
+        margin-left: 20px;
+
+        @media screen and (max-width: 360px){
+          display: none;
+          }
+      }
+
+      
+
+      
+    }
+
+    .row {
+      margin-top: 67px;
+      margin-bottom: 66px;
+
+      @media screen and (max-width: 360px){
+       
+        margin-top: 15px;
+        }
+     
+
+      .column {
+        float: left;
+        width: 25%;
+        padding: 22px;
+        height: 240px;
+        color: $black;
+        font-weight: 500;
+
+        @media screen and (max-width: 360px){
+          font-size: 10px;
+          height: 100px;
+          margin-bottom: 6px;
+        }
+        
+        h4 {
+          font-size: 14px;
+
+          @media screen and (max-width: 360px){
+            font-size: 10px;
+            width: 100px;
+            margin-bottom: 6px;
+          }
+        }
+
+        .contact {
+          margin-bottom: 15px;
+
+          
+          .h4 {
+            font-size: 18px;
+
+          @media screen and (max-width: 360px){
+            font-size: 10px;
+            width: 100px;
+            margin-bottom: 6px;
+          }
+        }
+
+          p {
+            font-size: 13px;
+            color: #808080;
+
+            @media screen and (max-width: 360px){
+              font-size: 9px;
+              width: 100px;
+              
+            }
+          }
+        }
+
+        .addres {
+          color: #808080;
+          margin-bottom: 100px !important;
+
+          @media screen and (max-width: 360px){
+            font-size: 8px;
+            width: 100px;
+            
+          }
+        }
+
+        .elem {
+          h4 {
+            font-size: 14px;
+            text-transform: uppercase;
+
+            @media screen and (max-width: 360px){
+              font-size: 10px;
+              width: 100px;
+              margin-bottom: 6px;
+
+            }
+          }
+        }
+      }
+
+      .about {
+        list-style: none;
+        padding: 0 !important;
+        justify-content: left;
+        position: absolute;
+        margin-top: 21px;
+        color: #808080;
+
+        @media screen and (max-width: 360px){
+          font-size: 10px;
+          width: 150px;
+
+          
+          
+        }
+      }
+
+      .socialisation {
+        width: 125px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-top: 28px;
+
+        @media screen and (max-width: 360px){
+          width: 25px;
+          justify-content: space-between;
+          align-items: center;
+          display: flex;
+          margin-top: 10px;
+          
+        }
+
+        .facebock{
+
+          @media screen and (max-width: 360px){
+            width: 17px;
+            margin-left: 30px;
+            
+            
+          }
+        }
+       
+      }
+    }
+  }
+
+  .arrow {
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    
+
+    @media screen and (max-width: 360px){
+      display: none;
+      margin-top: 15px;
+      }
+    .arrow-right {
+      margin-left: 48px;
+    }
+
+    
+  }
+}
+
+
+.input-row{
+
+  display: flex;
+
+  input{
+
+    
+      outline: none;
+      width: 760px;
+      height: 60px;
+      border: 1px solid #d2d2d2;
+      font-size: 13px;
+      font-weight: 400;
+      box-sizing: border-box;
+      padding-left: 14px;
+    
+    @media screen and (max-width: 360px){
+      width: 200px;
+      height: 40px;
+      margin-left: 20px;
+      font-size: 10px;
+      }
+  }
+
+  button {
+    background-color: #2f2f2f;
+    height: 60px;
+    width: 360px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+
+    @media screen and (max-width: 360px){
+      width: 110px;
+      height: 40px;
+      font-size: 10px;
+      
+      }
+  }
+
+}

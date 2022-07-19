@@ -1,0 +1,46 @@
+
+    footer{
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 487px;
+
+        @media screen and (max-width: 992px){
+            margin-top: 420px;
+            }
+       
+    .footer{
+        justify-content: space-between; 
+        display: flex;
+        margin-top: 36px;
+
+        .beauty-delm{
+            @media screen and (max-width: 992px){
+                font-size: 10px;
+                width: 80px;
+                }
+        }
+        
+
+        .company-develop{
+            display: flex;
+            
+            img{
+                margin-left: 15px;
+            }
+
+            p{
+                @media screen and (max-width: 992px){
+                    font-size: 10px;
+                    }
+            }
+
+            img{
+                @media screen and (max-width: 992px){
+                    width: 70px;
+                    height: 20px;
+                    } 
+            }
+        }
+    }
+    }
+
+    

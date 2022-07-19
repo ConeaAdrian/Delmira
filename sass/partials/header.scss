@@ -1,0 +1,192 @@
+header{
+
+  font-family: 'Montserrat', sans-serif;
+  .principal{
+      padding-top: 20px;
+      display: flex;
+      
+
+      
+      .logo{
+          margin-top: 40px;
+          @media screen and (max-width: 992px){
+            width: 90px;
+            height: 40px;
+            margin-top: 5px;
+            
+            }
+
+            
+      }
+
+      .search {
+          width: 525px;
+          margin-bottom: 0;
+          position: relative;
+          margin-top: 45px;
+          margin-left: 105px;
+          margin-right: 63px;
+
+          @media screen and (max-width: 992px){
+            display: none;
+            
+            }
+        
+          input {
+            outline: none;
+            width: 100%;
+            height: 39px;
+            border: 1px solid #D2D2D2;
+            
+            padding-left: 74px;
+            box-sizing: border-box;
+            padding-left: 428px;
+            
+            font-size: 13px;
+          }
+          button {
+           
+            position: absolute;
+            right: 11px;
+            top: 9px;
+            border: none;
+            outline: none;
+            background: transparent;
+            cursor: pointer;
+          }
+
+          img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+          }
+
+        
+        }
+        
+
+
+      .personal{
+          float: right;
+          margin-top: 55px;
+          margin-left: 78px;
+          display: flex;
+          align-items: center;   
+          
+          @media screen and (max-width: 992px){
+            width: 20px;
+            height: 20px;
+            margin-top: 15px;
+            align-items: center; 
+            }
+         
+          
+        
+          .login{
+            margin-right: 28px;
+
+           
+          }
+
+          .shop-unit{
+            display: flex;
+            align-items: center;
+            color: #808080;
+
+            @media screen and (max-width: 992px){
+              width: 20px;
+              height: 20px;
+              
+              }
+
+            .shop{
+              margin-right: 12px;
+              @media screen and (max-width: 992px){
+                width: 20px;
+                height: 20px;
+                
+                }
+             
+            }
+
+            p{
+              @media screen and (max-width: 992px){
+                font-size: 10px;
+                
+                
+                }
+            }
+          }
+
+      }
+
+      .about{
+          padding: 0;
+          margin: 0;
+          display: block;
+          margin-top: 55px;
+          display: flex;
+
+          
+
+          @media screen and (max-width: 992px){
+            display: none;
+
+            &.nav_active{
+              display: flex !important;
+              z-index: 200;
+              position: fixed;
+              flex-direction: column;
+              margin-top: 520px;
+              margin-left: 10px;
+              font-size: 13px;
+
+              .space{
+                display: none;
+              }
+            }
+            
+            }
+
+          li{
+             float: left;
+             display: block; 
+             margin-right: 20px;
+             
+             a{
+              color: #808080;
+              text-decoration: none;
+              
+             }
+          }
+
+          .space{
+            border: 0.8px solid #D1D1D1;
+            transform: matrix(-0.92, 0.4, 0, 0.61, -10, -12);
+            
+          }
+      }
+  }
+  
+ hr{
+  margin-top: 23px;
+  background: #494949;
+  
+  height: 2px;
+ }
+}
+
+.lol{
+  display: none;
+  width: 20px;
+  height: 20px;
+  
+
+    @media screen and (max-width: 360px){
+      left: 125px;
+      top: 32px;
+      position: absolute;
+      margin-top: 5px;
+      display: flex;
+      }
+}
